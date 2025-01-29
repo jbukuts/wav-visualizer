@@ -17,7 +17,7 @@ export default function VideoDisplay(props: VideoDisplayProps) {
 
       const blob = new Blob([buffer], { type: 'video/mp4' });
       url = URL.createObjectURL(blob);
-      elementRef.current.src = url;
+      elementRef.current!.src = url;
     });
 
     return () => {
