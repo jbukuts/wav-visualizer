@@ -1,0 +1,29 @@
+{
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+    "files.autoSave": "onFocusChange",
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "files.insertFinalNewline": true,
+    "eslint.enable": true,
+    "prettier.enable": true,
+    "eslint.validate": [
+      "javascript",
+      "typescript"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    // https://github.com/tailwindlabs/tailwindcss-intellisense/issues/719
+    // https://github.com/tailwindlabs/tailwindcss-intellisense/issues/868
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)", "'([^']*)'"],
+      ["cva\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)", "\"([^\"]*)\""],
+      ["cva\\(([^)(]*(?:\\([^)(]*(?:\\([^)(]*(?:\\([^)(]*\\)[^)(]*)*\\)[^)(]*)*\\)[^)(]*)*)\\)", "`([^`]*)`"],
+    ],
+    "ansible.python.interpreterPath": "c:\\Users\\jbukuts\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+  }
