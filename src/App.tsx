@@ -1,10 +1,10 @@
-import { Input } from './components/ui/input';
+import { Input } from '@/components/ui/input';
 import { ChangeEvent, useEffect, useReducer, useRef, useState } from 'react';
-import { Button } from './components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Loader2 } from 'lucide-react';
-import { Progress } from './components/ui/progress';
+import { Progress } from '@/components/ui/progress';
 import { MessageTypes, ProgressEnum } from './enums';
-import VideoDisplay from './components/video-display';
+import VideoDisplay from '@/components/video-display';
 import {
   Select,
   SelectContent,
@@ -13,7 +13,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue
-} from './components/ui/select';
+} from '@/components/ui/select';
 import { useDebounceCallback } from 'usehooks-ts';
 
 const STATES: Record<ProgressEnum, string> = {

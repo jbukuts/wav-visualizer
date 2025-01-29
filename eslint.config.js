@@ -11,6 +11,11 @@ export default tseslint.config(
   ...tailwind.configs['flat/recommended'],
   { ignores: ['dist'] },
   {
+    settings: {
+      tailwindcss: {
+        callees: ['classnames', 'clsx', 'cn', 'cva']
+      }
+    },
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
